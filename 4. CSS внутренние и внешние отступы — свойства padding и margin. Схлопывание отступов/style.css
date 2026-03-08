@@ -1,0 +1,22 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: #198747;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 300px;
+    border: 2px dashed black;
+} */
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #7aa4cb;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #59dcbd;
+}

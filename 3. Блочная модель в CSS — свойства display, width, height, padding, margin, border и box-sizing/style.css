@@ -1,0 +1,41 @@
+/* .box {
+    width: 100px;
+    margin: 20px;
+    padding: 30px;
+    border: 5px solid indianred;
+} */
+
+/* span {
+    border: 5px solid indianred;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+} */
+
+/* .box-1 {
+    display: block;
+    background-color: #dc9e9e;
+}
+.box-2 {
+    display: inline;
+    background-color: #de5959;
+}
+.box-3 {
+    display: inline-block;
+    background-color: #53c29a;
+}
+.box-4 {
+    display: none;
+} */
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #52b6bd;
+    padding: 15px 40px;
+    border: 10px solid rgb(0, 0, 0);
+    /* margin: 50px; */
+}
+.normal-size {
+    box-sizing: border-box;
+}
