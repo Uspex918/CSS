@@ -1,0 +1,21 @@
+p {
+    color: teal;
+}
+a {
+    color: hotpink;
+}
+header {
+    background-color: bisque;
+    color: chartreuse;
+}
+section {
+    height: 50px;
+    background-color: deepskyblue;
+    margin-bottom: 5px;
+}
+/* body {
+    color: purple;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+} */
