@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+}
+/* .box-1 {
+    background-color: aqua;
+} */
+.box-2 {
+    background-color: rgb(41, 193, 66);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+}
+.box-3 {
+    background-color: rgb(63, 21, 180);
+    position: absolute;
+    inset: 0;
+}
+/* .box-4 {
+    background-color: rgb(208, 49, 102);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+.box-5 {
+    background-color: rgb(36, 29, 29);
+    position: sticky;
+} */

@@ -1,0 +1,16 @@
+p {
+    font-size: 48px;
+    height: 350px;
+    width: 350px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.text {
+    color: rgb(197, 12, 12, 0.1);
+    background-color: #dcd80c;
+    border: 2px solid green;
+    outline: 5px dashed currentColor;
+    box-shadow: 2px 2px 5px 6px lightcoral;
+}

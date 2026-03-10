@@ -1,0 +1,56 @@
+li:nth-child(2) {
+    color: blue;
+}
+.modal:not(.is-active) {
+    display: none;
+}
+a:hover {
+    box-shadow: 2px 4px 10px 10px rgb(70, 196, 120);
+}
+p:last-child {
+    color: red;
+}
+p {
+    margin: 1px 0;
+}
+p:nth-child(even) {
+    background-color: #92e0f4;
+}
+p:nth-child(-n + 3) {
+    color: blue;
+    background-color: aquamarine;
+}
+p:nth-last-child(-n + 2) {
+    color: blue;
+    background-color: rgb(238, 23, 188);
+}
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+.checkbox {
+    display: flex;
+    column-gap: 0.5em;
+    user-select: none;
+}
+.checkbox-emulator {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    border: 2px dashed lightblue;
+    background-color: antiquewhite;
+}
+.checkbox-emulator:after {
+    content: "😁";
+    font-size: 3em;
+}
+.checkbox-control:not(:checked) + .checkbox-emulator:after {
+    display: none;
+}

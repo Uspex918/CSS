@@ -1,0 +1,48 @@
+.with-before::before {
+    content: "🛠";
+    color: aquamarine;
+    font-size: 40px;
+}
+.with-after::after {
+    content: "💈";
+    color: aqua;
+    font-size: 36px;
+}
+.with-red-placeholder::placeholder {
+    color: red;
+}
+.with-file-selector-button::file-selector-button {
+    background-color: #161e91;
+    font-weight: 900;
+    border: 2px dashed darkcyan;
+    color: white;
+    height: 36px;
+    width: 150px;
+}
+
+.with-first-letter::first-letter {
+    font-size: 3em;
+}
+.wit-first-line::first-line {
+    text-decoration: underline;
+}
+.custom-selection::selection {
+    background-color: #3bc0c742;
+    color: burlywood;
+    text-shadow: 1px 1px 1px black;
+}
+.marker-smile::marker {
+    content: "😀";
+}
+.pseudo-smile {
+    position: relative;
+    background-color: #9c4343;
+    width: 350px;
+}
+.pseudo-smile::after {
+    position: absolute;
+    font-size: 50px;
+    content: "💈";
+    top: -50px;
+    right: -30px;
+}
