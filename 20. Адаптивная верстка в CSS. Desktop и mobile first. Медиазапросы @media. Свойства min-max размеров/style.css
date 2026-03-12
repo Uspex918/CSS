@@ -1,0 +1,121 @@
+/* .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    background-color: tomato;
+    height: 100px;
+    min-height: 100vh;
+} */
+
+/* .modal {
+    position: fixed;
+    z-index: 100;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 46px;
+    background-color: rgba(0, 0, 0, 0.236);
+}
+.modal-inner {
+    padding: 30px;
+    background-color: #fff;
+    max-height: 500px;
+    overflow-y: auto;
+} */
+/* .catalog-title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catalog-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-inline-start: 0px;
+}
+.catalog-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: lightskyblue;
+} */
+
+/* @media (max-width: 700px) {
+    .catalog-title {
+        font-size: 34px;
+    }
+    .catalog-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+@media (max-width: 400px) {
+    .catalog-title {
+        font-size: 30px;
+    }
+    .catalog-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+} */
+/* @media (min-width: 400px) {
+    .catalog-title {
+        font-size: 36px;
+    }
+    .catalog-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+@media (min-width: 700px) {
+    .catalog-title {
+        font-size: 64px;
+    }
+    .catalog-list {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+} */
+
+/* .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightsalmon;
+}
+@media (min-height: 500px) {
+    .banner-title {
+        color: red;
+    }
+}
+@media (max-height: 300px) {
+    .banner-title {
+        color: green;
+    }
+}
+@media (orientation: portrait) {
+    .banner-title {
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+    }
+} */
+
+button {
+    background-color: palegreen;
+    transition: background-color 0.2s;
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color: crimson;
+    }
+}
+button:active {
+    background-color: crimson;
+}

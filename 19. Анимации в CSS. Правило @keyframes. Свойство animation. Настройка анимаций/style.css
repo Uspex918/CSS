@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    animation-name: move-to-right;
+    animation-duration: 2s;
+    animation-iteration-count: 50;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+body {
+    background-color: #e5fb41;
+}
+
+@keyframes move-to-right {
+    /* 50% {
+        rotate: 45deg;
+        background-color: #2ad852;
+    } */
+    100% {
+        translate: 75vw;
+        rotate: 90deg;
+    }
+}

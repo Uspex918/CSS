@@ -1,0 +1,16 @@
+/* .box {
+    width: 120px;
+    height: 120px;
+    border: 2px solid indianred;
+    overflow: hidden;
+    font-size: 30px;
+} */
+button:active {
+    background-color: #e5ec34;
+}
+button {
+    visibility: hidden;
+}
+img {
+    clip-path: polygon(32% 85%, 16% 52%, 38% 11%, 79% 37%);
+}

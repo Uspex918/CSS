@@ -1,0 +1,33 @@
+/* .box-1,
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #87f1f1;
+    border: 5px solid indianred;
+    box-shadow: 4px -2px 12px 4px rgb(0, 0, 0, 0.5);
+}
+.box-2 {
+    transform: translate(50px, 10px) skew(5deg, 5deg) scale(0.7, 0.8)
+        rotate(20deg);
+} */
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    border: 2px solid indianred;
+
+    transition: all 0.3s ease 0s;
+}
+li {
+    border: 1px solid black;
+}
+
+.translated-on-hover:hover .box {
+    translate: 75vw;
+}
+.scale-on-hover:hover .box {
+    scale: 2;
+}
+.rotate-on-hover:hover .box {
+    rotate: 45deg;
+}
